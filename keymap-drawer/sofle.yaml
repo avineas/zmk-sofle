@@ -21,7 +21,7 @@ layers:
   - R
   - T
   - $$mdi:arrow-down-bold$$
-  - Z
+  - Y
   - U
   - I
   - O
@@ -38,10 +38,10 @@ layers:
   - J
   - K
   - L
-  - {t: B, h: '$$mdi:gesture-tap-hold$$'}
+  - {t: '{', s: '}'}
   - $$mdi:arrow-up-bold$$
   - $$mdi:apple-keyboard-shift$$
-  - Y
+  - Z
   - X
   - C
   - V
@@ -51,7 +51,7 @@ layers:
   - M
   - {t: ',', s: <}
   - {t: ., s: '>'}
-  - {t: /, s: '?'}
+  - {t: '-', s: _}
   - $$mdi:arrow-down-bold$$
   - $$mdi:volume-off$$
   - F13
@@ -198,7 +198,10 @@ layers:
 combos:
 - p: [0, 53]
   k: {t: layer1, h: '$$mdi:gesture-tap-hold$$'}
+  l: [LAYER0]
 - p: [2, 53]
   k: {t: '2', h: toggle}
+  l: [LAYER0, '2', layer1]
 - p: [53, 43]
   k: F14
+  l: [LAYER0]
