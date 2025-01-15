@@ -38,7 +38,7 @@ layers:
   - J
   - K
   - L
-  - {t: '{', s: '}'}
+  - {t: B, h: '$$mdi:gesture-tap-hold$$'}
   - $$mdi:arrow-up-bold$$
   - $$mdi:apple-keyboard-shift$$
   - Y
