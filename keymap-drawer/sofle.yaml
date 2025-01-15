@@ -21,7 +21,7 @@ layers:
   - R
   - T
   - $$mdi:arrow-down-bold$$
-  - Y
+  - Z
   - U
   - I
   - O
@@ -41,7 +41,7 @@ layers:
   - {t: '{', s: '}'}
   - $$mdi:arrow-up-bold$$
   - $$mdi:apple-keyboard-shift$$
-  - Z
+  - Y
   - X
   - C
   - V
@@ -54,12 +54,12 @@ layers:
   - {t: '-', s: _}
   - $$mdi:arrow-down-bold$$
   - $$mdi:volume-off$$
-  - F13
+  - AC HOME
   - {t: '$$mdi:apple-keyboard-control$$', h: '$$mdi:gesture-tap-hold$$'}
   - {t: '$$mdi:apple-keyboard-option$$', h: '$$mdi:gesture-tap-hold$$'}
   - {t: LGUI, h: '$$mdi:gesture-tap-hold$$'}
   - $$mdi:keyboard-space$$
-  - F15
+  - PgDn
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:apple-keyboard-shift$$
@@ -203,5 +203,5 @@ combos:
   k: {t: '2', h: toggle}
   l: [LAYER0, '2', layer1]
 - p: [53, 43]
-  k: F14
+  k: SHUFFLE
   l: [LAYER0]
