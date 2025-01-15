@@ -33,41 +33,6 @@
         };
     };
 
-    scroll_encoder: scroll_encoder {
-        compatible = "zmk,behavior-sensor-rotate";
-        #sensor-binding-cells = <0>;
-        bindings = <&encoder_increment>, <&encoder_decrement>;
-
-        label = "scroll_encoder";
-    };
-
-    braces: braces {
-        compatible = "zmk,behavior-mod-morph";
-        label = "BRACES";
-        bindings = <&kp LEFT_BRACE>, <&kp RIGHT_BRACE>;
-
-        #binding-cells = <0>;
-        mods = <(MOD_LSFT|MOD_RSFT)>;
-    };
-
-    encoder_increment: encoder_increment {
-        compatible = "zmk,behavior-mod-morph";
-        label = "ENCODER_INCREMENT";
-        bindings = <&kp C_BRIGHTNESS_INC>, <&kp C_VOLUME_UP>;
-
-        #binding-cells = <0>;
-        mods = <(MOD_LCTL|MOD_RCTL)>;
-    };
-
-    encoder_decrement: encoder_decrement {
-        compatible = "zmk,behavior-mod-morph";
-        label = "ENCODER_DECREMENT";
-        bindings = <&kp C_BRIGHTNESS_DEC>, <&kp C_VOLUME_DOWN>;
-
-        #binding-cells = <0>;
-        mods = <(MOD_LCTL|MOD_RCTL)>;
-    };
-
     combos {
         compatible = "zmk,combos";
 
@@ -103,12 +68,12 @@
             bindings = <
 &kp ESC     &kp N1   &kp N2     &kp N3        &kp N4    &kp N5       &kp UP_ARROW     &kp N6   &kp N7         &kp N8           &kp N9          &kp N0           &kp SQT
 &kp TAB     &kp Q    &kp W      &kp E         &kp R     &kp T        &kp DOWN_ARROW   &kp Z    &kp U          &kp I            &kp O           &kp P            &kp KP_PLUS
-&hyper      &kp A    &kp S      &kp D         &kp F     &kp G        &kp LEFT_ARROW   &kp H    &kp J          &kp K            &kp L           &braces          &kp UP_ARROW
+&hyper      &kp A    &kp S      &kp D         &kp F     &kp G        &kp LEFT_ARROW   &kp H    &kp J          &kp K            &kp L           &sk B            &kp UP_ARROW
 &kp LSHFT   &kp Y    &kp X      &kp C         &kp V     &kp B        &kp RIGHT_ARROW  &kp N    &kp M          &kp COMMA        &kp DOT         &kp FSLH         &kp DOWN_ARROW
 &kp C_MUTE  &kp F13  &sk LCTRL  &sk LEFT_ALT  &sk LGUI  &kp SPACE    &kp F15          &kp RET  &kp BACKSPACE  &kp RIGHT_SHIFT  &kp LEFT_ARROW  &kp RIGHT_ARROW
             >;
 
-            sensor-bindings = <&scroll_encoder>;
+            sensor-bindings = <&inc_dec_kp C_BRIGHTNESS_INC C_BRIGHTNESS_DEC>;
             display-name = "LAYER0";
         };
 
@@ -122,7 +87,7 @@
             >;
 
             display-name = "layer1";
-            sensor-bindings = <&scroll_encoder>;
+            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
         };
 
         layer_2 {
@@ -133,8 +98,6 @@
 &trans          &sys_reset    &trans        &bootloader   &trans        &trans            &mmv MOVE_RIGHT  &trans  &trans  &sys_reset  &soft_off  &bootloader  &trans
 &bl BL_TOG      &trans        &trans        &trans        &trans        &bt BT_CLR_ALL    &mkp LCLK        &trans  &trans  &trans      &trans     &trans
             >;
-
-            sensor-bindings = <&scroll_encoder>;
         };
     };
 };
