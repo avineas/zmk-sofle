@@ -205,3 +205,6 @@ combos:
 - p: [53, 43]
   k: F14
   l: [LAYER0]
+- p: [53, 36]
+  k: LOCK
+  l: [LAYER0, layer1, '2']
