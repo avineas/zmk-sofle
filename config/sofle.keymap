@@ -87,6 +87,13 @@
             timeout-ms = <1700>;
             layers = <0>;
         };
+
+        screen_lock {
+            bindings = <&kp K_LOCK>;
+            key-positions = <53 36>;
+            layers = <0 1 2>;
+            timeout-ms = <600>;
+        };
     };
 
     macros {
