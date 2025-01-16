@@ -39,7 +39,7 @@
         braces: braces {
             compatible = "zmk,behavior-mod-morph";
             label = "BRACES";
-            bindings = <&kp LEFT_BRACE>, <&kp RIGHT_BRACE>;
+            bindings = <&kp F17>, <&kp F18>;
 
             #binding-cells = <0>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
