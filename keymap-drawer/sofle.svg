@@ -659,7 +659,7 @@ rect.held, rect.combo.held {
 <path d="M462,203 l-304,53" class="combo"/>
 <path d="M462,203 l304,-53" class="combo"/>
 <rect rx="6" ry="6" x="448" y="190" width="28" height="26" class="combo"/>
-<text x="462" y="203" class="combo tap">LOCK</text>
+<text x="462" y="203" class="combo tap">F15</text>
 </g>
 </g>
 </g>
@@ -1029,7 +1029,7 @@ rect.held, rect.combo.held {
 <path d="M462,203 l-304,53" class="combo"/>
 <path d="M462,203 l304,-53" class="combo"/>
 <rect rx="6" ry="6" x="448" y="190" width="28" height="26" class="combo"/>
-<text x="462" y="203" class="combo tap">LOCK</text>
+<text x="462" y="203" class="combo tap">F15</text>
 </g>
 </g>
 </g>
@@ -1392,7 +1392,7 @@ rect.held, rect.combo.held {
 <path d="M462,203 l-304,53" class="combo"/>
 <path d="M462,203 l304,-53" class="combo"/>
 <rect rx="6" ry="6" x="448" y="190" width="28" height="26" class="combo"/>
-<text x="462" y="203" class="combo tap">LOCK</text>
+<text x="462" y="203" class="combo tap">F15</text>
 </g>
 </g>
 </g>
