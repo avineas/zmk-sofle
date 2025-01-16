@@ -55,10 +55,10 @@ layers:
   - $$mdi:arrow-down-bold$$
   - $$mdi:volume-off$$
   - F13
-  - {t: '$$mdi:apple-keyboard-control$$', h: '$$mdi:gesture-tap-hold$$'}
   - {t: '$$mdi:apple-keyboard-option$$', h: '$$mdi:gesture-tap-hold$$'}
-  - $$mdi:keyboard-space$$
   - {t: LGUI, h: '$$mdi:gesture-tap-hold$$'}
+  - $$mdi:keyboard-space$$
+  - {t: '$$mdi:apple-keyboard-control$$', h: '$$mdi:gesture-tap-hold$$'}
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:backspace$$', type: backspace}
