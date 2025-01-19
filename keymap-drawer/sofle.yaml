@@ -39,7 +39,7 @@ layers:
   - K
   - L
   - {t: F17, s: F18}
-  - $$mdi:arrow-up-bold$$
+  - '&safe_enter'
   - $$mdi:apple-keyboard-shift$$
   - Y
   - X
@@ -52,21 +52,21 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: '-', s: _}
-  - $$mdi:arrow-down-bold$$
+  - $$mdi:apple-keyboard-shift$$
   - $$mdi:volume-off$$
   - F13
   - {t: '$$mdi:apple-keyboard-option$$', h: '$$mdi:gesture-tap-hold$$'}
   - {t: LGUI, h: '$$mdi:gesture-tap-hold$$'}
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:apple-keyboard-control$$', h: '$$mdi:gesture-tap-hold$$'}
-  - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
+  - F19
   - {t: '$$mdi:backspace$$', type: backspace}
-  - $$mdi:apple-keyboard-shift$$
-  - $$mdi:arrow-left-bold$$
-  - $$mdi:arrow-right-bold$$
+  - F18
+  - '&layers'
+  - AC FIND
   layer1:
-  - {t: LAYER0, h: toggle, type: held}
+  - {t: LAYER0, h: toggle}
   - F1
   - F2
   - F3
@@ -119,7 +119,7 @@ layers:
   - F12
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:volume-off$$
-  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -196,12 +196,6 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
 combos:
-- p: [0, 53]
-  k: {t: layer1, h: '$$mdi:gesture-tap-hold$$'}
-  l: [LAYER0]
-- p: [2, 53]
-  k: {t: '2', h: toggle}
-  l: [LAYER0, '2', layer1]
 - p: [53, 43]
   k: F14
   l: [LAYER0]
