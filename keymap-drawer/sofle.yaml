@@ -38,7 +38,7 @@ layers:
   - J
   - K
   - L
-  - {t: F17, s: F18}
+  - F17
   - '&safe_enter'
   - $$mdi:apple-keyboard-shift$$
   - Y
@@ -60,11 +60,11 @@ layers:
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:apple-keyboard-control$$', h: '$$mdi:gesture-tap-hold$$'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - F19
-  - {t: '$$mdi:backspace$$', type: backspace}
   - F18
+  - {t: '$$mdi:backspace$$', type: backspace}
+  - F19
   - '&layers'
-  - AC FIND
+  - F20
   layer1:
   - {t: LAYER0, h: toggle}
   - F1
