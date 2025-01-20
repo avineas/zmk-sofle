@@ -62,8 +62,8 @@ layers:
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - F18
   - {t: '$$mdi:backspace$$', type: backspace}
-  - F19
   - '&layers'
+  - {t: '$$mdi:apple-keyboard-option$$', h: '$$mdi:gesture-tap-hold$$'}
   - F20
   layer1:
   - {t: LAYER0, h: toggle}
@@ -199,6 +199,3 @@ combos:
 - p: [53, 43]
   k: F14
   l: [LAYER0]
-- p: [53, 36]
-  k: F15
-  l: [LAYER0, layer1, '2']
