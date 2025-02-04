@@ -39,7 +39,7 @@ layers:
   - K
   - L
   - F17
-  - '&safe_enter'
+  - F14
   - $$mdi:apple-keyboard-shift$$
   - Y
   - X
