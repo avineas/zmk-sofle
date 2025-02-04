@@ -73,16 +73,7 @@
         };
     };
 
-    combos {
-        compatible = "zmk,combos";
-
-        dictation {
-            bindings = <&kp F14>;
-            key-positions = <53 43>;
-            timeout-ms = <1700>;
-            layers = <0>;
-        };
-    };
+    combos { compatible = "zmk,combos"; };
 
     keymap {
         compatible = "zmk,keymap";
